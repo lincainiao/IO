@@ -1,0 +1,5 @@
+字节输出/入流：File_OutputStream/File_InputStream
+字符输出/入流：File_Writer/File_Reader
+以上四个类都是抽象类，只能通过子类实现
+回车换行：
+static String crlf = System.getProperty("line.separator");
